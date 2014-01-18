@@ -5,12 +5,34 @@ body {
 	color: gray;
 }
 
+/*utility styling*/
+.text-banner {
+	background: rgba(0, 0, 0, .5);
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.box-box {
+	height: 350px;
+	margin: 100px 0;
+}
+
 .webtitle {
 	margin: 50px auto;
 	width: 400px;
 	text-align: center;
+	display: block;
 }
 
+.box-box .webtitle {
+	margin: 0px auto;
+	font-size: 20px;
+}
+
+/*Styling Box-1*/
 .box-1 {
 	margin: 50px auto;
 	width: 200px;
@@ -28,6 +50,7 @@ body {
 	-webkit-transform: rotate(18deg);
 }
 
+/*Styling Box-2*/
 .box-2 {
 	width: 200px;
 	height: 200px;
@@ -38,9 +61,11 @@ body {
 
 .box-2:hover {
 	border-radius: 200px;
-	-webkit-transform: rotate(60deg);
-}
+	background: black;
+	-webkit-transform: rotate(180deg);
+	}
 
+/*Styling Box-3*/
 .box-3 {
 	width: 400px;
 	height: 300px;
@@ -51,7 +76,7 @@ body {
 }
 
 .box-3 .mason-quote {
-	margin: 50px auto;
+	margin: 0px auto;
 	text-align: center;
 	color: rgb(179, 239, 183);
 	padding-top: 240px;
@@ -61,7 +86,7 @@ body {
 }
 
 .box-3 .flack-quote {
-	margin: 50px auto;
+	margin: 0px auto;
 	text-align: center;
 	color: rgb(179, 239, 183);
 	padding-top: 240px;
@@ -86,3 +111,124 @@ body {
 	display: block;
 }
 
+/*styling box-4*/
+.box-4 {
+	width: 400px;
+	height: 225px;
+	margin: 50px auto;
+	-webkit-transition: 0.6s ease;
+	position: relative;
+	z-index: 50;
+}
+
+.box-4 img {
+	width: 400px;
+	height: 225px;
+	overflow: hidden;
+	z-index: 55;
+}
+
+.box-4:hover {
+	width: 400px;
+	height: 300px;
+	margin: 50px auto;
+	background: url(img/flack-quote.jpg) no-repeat center center;
+}
+
+.box-4 .text-banner {
+	position: absolute;
+	width: 400px;
+	bottom: 0;
+	z-index: 54;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*styling box-5*/
+.box-5 {
+	width: 400px;
+	height: 225px;
+	margin: 50px auto;
+	-webkit-transition: 0.6s ease;
+	position: relative;
+	z-index: 50;
+}
+
+.box-5 img {
+	width: 400px;
+	height: 225px;
+	overflow: hidden;
+	z-index: 55;
+}
+
+.box-5:hover {
+	width: 400px;
+	height: 300px;
+	margin: 50px auto;
+	background: url(img/flack-quote.jpg) no-repeat center center;
+}
+
+.box-5 .text-banner {
+	position: absolute;
+	width: 400px;
+	bottom: 0;
+	z-index: 54;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*styling box-6*/
+.box-6 {
+	margin: 0 auto;
+	width: 500px;
+	height: 600px;
+	position: relative;
+}
+
+.box-6 .box-row {
+	margin: 5px 0;
+}
+
+.wrapper {
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+}
+
+.gray-box {
+	width: 50px;
+	height: 50px;
+	background: gray;
+}
+
+.box-6 .gray-box:hover {
+	background: red;
+	width: 60px;
+	height: 60px;
+	padding: 1px 1px;
+	margin-top: -8px;
+	margin-left: -6px;
+	position: relative;
+	box-shadow: 1px 2px 8px black;
+	-webkit-transition: 0.6s ease;
+}
+
+/*Styling box-7*/
+/*styling box-6*/
+.box-7 {
+	margin: 0 auto;
+	width: 500px;
+	position: relative;
+}
+
+.box-7 .gray-box:hover {
+	background: red;
+	padding: 1px 1px;
+	margin-top: -8px;
+	margin-left: -6px;
+	position: relative;
+	-webkit-transition: 0.6s ease;
+
+}
