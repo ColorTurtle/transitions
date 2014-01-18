@@ -40,3 +40,49 @@ body {
 	border-radius: 200px;
 	-webkit-transform: rotate(60deg);
 }
+
+.box-3 {
+	width: 400px;
+	height: 300px;
+	margin: 50px auto;
+	background: url(img/about-page-mason.jpg) no-repeat center center;
+	-webkit-transition: 0.6s ease;
+	position: relative;
+}
+
+.box-3 .mason-quote {
+	margin: 50px auto;
+	text-align: center;
+	color: rgb(179, 239, 183);
+	padding-top: 240px;
+	text-shadow: 1px 2px 5px black;
+	display: block;
+	font-size: 28px;
+}
+
+.box-3 .flack-quote {
+	margin: 50px auto;
+	text-align: center;
+	color: rgb(179, 239, 183);
+	padding-top: 240px;
+	text-shadow: 1px 2px 5px black;
+	font-size: 28px;
+	position: relative;
+	display: none;
+}
+
+.box-3:hover {
+	width: 400px;
+	height: 300px;
+	margin: 50px auto;
+	background: url(img/flack-quote.jpg) no-repeat center center;
+}
+
+.box-3:hover > .mason-quote {
+	display: none;
+}
+
+.box-3:hover > .flack-quote {
+	display: block;
+}
+
