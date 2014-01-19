@@ -80,8 +80,7 @@ body {
 .box-1:hover {
 	margin-top: 53px;
 	height: 122px;
-	box-shadow: inset 0px -3px 0px rgb(106, 101, 101),
-		-webkit-transform: all 0.6s ease;
+	box-shadow: inset 0px -3px 0px rgb(106, 101, 101);
 }
 
 .box-1:active {
@@ -373,8 +372,7 @@ body {
 	border: 1px solid rgb(195, 143, 38);
 	color: white;
 	text-shadow: 0 1px 1px rgb(113, 86, 30);
-	box-shadow: inset 0px 1px 1px #7B7474,
-									  0px -2px 0px rgb(117, 109, 109);
+	box-shadow: inset 0px 1px 1px #7B7474;
 	background: #fcd833; /* Old browsers */
 	background: -moz-linear-gradient(top, #fca52e 0%, #fcd833 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fca52e), color-stop(100%,#fcd833)); /* Chrome,Safari4+ */
@@ -394,7 +392,7 @@ body {
 
 .box-10 {
 	margin: 50px auto;
-	width: 860px;
+	width: 860px;	
 }
 
 .box-10 .gray-box {
